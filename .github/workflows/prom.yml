@@ -34,11 +34,11 @@ jobs:
         depth: 1
         branch: 'main'
         owner: 'dlysenko6745'
-        repository: 'grafanagke'
+        repository: 'prometheusgke'
     
     - name: Access cloned repo
       run: |
-         cd grafanagke
+         cd prometheusgke
          ls -la   
 
     - name: Deploy with Helm
